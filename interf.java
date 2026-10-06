@@ -1,3 +1,6 @@
+enum s{
+    a,b,c;
+}
 interface k{
     void run();
     void fly();
@@ -25,5 +28,7 @@ public class interf {
         k obj1=new m();
         obj1.run();
         obj1.fly();
+        s obj2=s.a;
+        System.out.println(obj2);
     }
 }
